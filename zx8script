@@ -7,9 +7,9 @@ local window = library:AddWindow("ZX8|Public", {
 })
 local _Intro = ZX8|Public:AddTab('INFO')
 
-_Intro:AddLabel('ZX8 Clan Owner = ZX8_RUmi')
-_Intro:AddLabel('Script Made By ABD|| [BSW]GHOST')
-_Intro:AddLabel('ZX8 x SL Hub On Top!')
+_Intro:AddLabel('ZX8 Clan Owner = ZX8_Rumi')
+_Intro:AddLabel('Script Made By The_ABD-ZX8|| [BSW]GHOST')
+_Intro:AddLabel('ZX8 On Top!')
 _Intro:AddLabel('Scroll Through The Tabs to see more tabs.')
 
 local function _(p3, p4, p5)
