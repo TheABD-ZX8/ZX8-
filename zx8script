@@ -82,7 +82,7 @@ local function _(p8, p9)
     end
 end
 
-local _Rock = _H3LLMuscleLegendsPublicVersion:AddTab('Rock')
+local _Rock = ZX8|Public:AddTab('Rock')
 
 function gettool()
     local v21, v22, v23 = pairs(game.Players.LocalPlayer.Backpack:GetChildren())
@@ -790,7 +790,7 @@ _Farm:AddButton('Legends Pull Up', function()
     _VirtualInputManager2:SendKeyEvent(false, Enum.KeyCode.E, false, game)
 end)
 
-local _Teleport = _H3LLMuscleLegendsPublicVersion:AddTab('Teleport')
+local _Teleport = ZX8|Public:AddTab('Teleport')
 
 _Teleport:AddButton('Spawn', function()
     local _LocalPlayer18 = game.Players.LocalPlayer;
@@ -1031,9 +1031,9 @@ end);
             return
         end
     end)()
-end)((_H3LLMuscleLegendsPublicVersion:AddTab('Stats')))
+end)((_ZX8|Public:AddTab('Stats')))
 
-local _Killing = _H3LLMuscleLegendsPublicVersion:AddTab('Killing')
+local _Killing = ZX8|Public:AddTab('Killing')
 local _Players = game:GetService('Players')
 local _ReplicatedStorage2 = game:GetService('ReplicatedStorage')
 
@@ -1861,7 +1861,7 @@ _Killing:AddSwitch('Spy Player', function(p358)
     end
 end):Set(false)
 
-local _Ultimates = _H3LLMuscleLegendsPublicVersion:AddTab('Ultimates')
+local _Ultimates =ZX8|Public:AddTab('Ultimates')
 
 _Ultimates:Show()
 
@@ -1904,7 +1904,7 @@ _Ultimates:AddSwitch('Buy Selected Ultimate', function(p375)
     end
 end)
 
-local _Misc = _H3LLMuscleLegendsPublicVersion:AddTab('Misc')
+local _Misc = ZX8|Public:AddTab('Misc')
 local u377 = true
 
 _Misc:AddButton('Anti Afk', function(p378)
