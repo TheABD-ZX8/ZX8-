@@ -1,15 +1,11 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/duycon10/Script-Duy/refs/heads/main/Gui", true))()
 
-local window = library:AddWindow("Duy Script | Public", {
+local window = library:AddWindow("ZX8|Public", {
     main_color = Color3.fromRGB(35, 35, 35),
     min_size = Vector2.new(700, 700),
     can_resize = true,
-})local _H3LLMuscleLegendsPublicVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/duycon10/Script-Duy/refs/heads/main/Gui"))()true))():AddWindow('ZX8 Muscle Legends || Public Version', {
-    main_color = Color3.fromRGB(0, 0, 225),
-    min_size = Vector2.new(400, 800),
-    can_resize = false,
 })
-local _Intro = _H3LLMuscleLegendsPublicVersion:AddTab('INFO')
+local _Intro = ZX8|Public:AddTab('INFO')
 
 _Intro:AddLabel('ZX8 Clan Owner = ZX8_RUmi')
 _Intro:AddLabel('Script Made By ABD|| [BSW]GHOST')
