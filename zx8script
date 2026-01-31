@@ -1,15 +1,15 @@
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/duycon10/Script-Duy/refs/heads/main/Gui", true))()
 
-local window = library:AddWindow("Duy Script | Public", {
+local window = library:AddWindow("ZX8_Script | Public", {
     main_color = Color3.fromRGB(35, 35, 35),
     min_size = Vector2.new(700, 700),
     can_resize = true,
 })
 
-_Intro:AddLabel('ZX8 Clan Owner = ZX8_RUmi')
+_Intro:AddLabel('ZX8 Clan Owner = ZX8_Rumi')
 _Intro:AddLabel('Script Made By ABD|| [BSW]GHOST')
-_Intro:AddLabel('ZX8 x SL Hub On Top!')
+_Intro:AddLabel('ZX8 On Top!')
 _Intro:AddLabel('Scroll Through The Tabs to see more tabs.')
 
 local function _(p3, p4, p5)
