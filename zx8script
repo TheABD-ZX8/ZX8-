@@ -1,15 +1,15 @@
+
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/duycon10/Script-Duy/refs/heads/main/Gui", true))()
 
-local window = library:AddWindow("ZX8|Public", {
+local window = library:AddWindow("Duy Script | Public", {
     main_color = Color3.fromRGB(35, 35, 35),
     min_size = Vector2.new(700, 700),
     can_resize = true,
 })
-local _Intro = ZX8|Public:AddTab('INFO')
 
-_Intro:AddLabel('ZX8 Clan Owner = ZX8_Rumi')
-_Intro:AddLabel('Script Made By The_ABD-ZX8|| [BSW]GHOST')
-_Intro:AddLabel('ZX8 On Top!')
+_Intro:AddLabel('ZX8 Clan Owner = ZX8_RUmi')
+_Intro:AddLabel('Script Made By ABD|| [BSW]GHOST')
+_Intro:AddLabel('ZX8 x SL Hub On Top!')
 _Intro:AddLabel('Scroll Through The Tabs to see more tabs.')
 
 local function _(p3, p4, p5)
@@ -82,7 +82,7 @@ local function _(p8, p9)
     end
 end
 
-local _Rock = ZX8|Public:AddTab('Rock')
+local _Rock = _H3LLMuscleLegendsPublicVersion:AddTab('Rock')
 
 function gettool()
     local v21, v22, v23 = pairs(game.Players.LocalPlayer.Backpack:GetChildren())
@@ -790,7 +790,7 @@ _Farm:AddButton('Legends Pull Up', function()
     _VirtualInputManager2:SendKeyEvent(false, Enum.KeyCode.E, false, game)
 end)
 
-local _Teleport = ZX8|Public:AddTab('Teleport')
+local _Teleport = _H3LLMuscleLegendsPublicVersion:AddTab('Teleport')
 
 _Teleport:AddButton('Spawn', function()
     local _LocalPlayer18 = game.Players.LocalPlayer;
@@ -1031,9 +1031,9 @@ end);
             return
         end
     end)()
-end)((_ZX8|Public:AddTab('Stats')))
+end)((_H3LLMuscleLegendsPublicVersion:AddTab('Stats')))
 
-local _Killing = ZX8|Public:AddTab('Killing')
+local _Killing = _H3LLMuscleLegendsPublicVersion:AddTab('Killing')
 local _Players = game:GetService('Players')
 local _ReplicatedStorage2 = game:GetService('ReplicatedStorage')
 
@@ -1861,7 +1861,7 @@ _Killing:AddSwitch('Spy Player', function(p358)
     end
 end):Set(false)
 
-local _Ultimates =ZX8|Public:AddTab('Ultimates')
+local _Ultimates = _H3LLMuscleLegendsPublicVersion:AddTab('Ultimates')
 
 _Ultimates:Show()
 
@@ -1904,7 +1904,7 @@ _Ultimates:AddSwitch('Buy Selected Ultimate', function(p375)
     end
 end)
 
-local _Misc = ZX8|Public:AddTab('Misc')
+local _Misc = _H3LLMuscleLegendsPublicVersion:AddTab('Misc')
 local u377 = true
 
 _Misc:AddButton('Anti Afk', function(p378)
